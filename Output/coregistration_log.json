@@ -1,0 +1,42 @@
+{
+  "Hirakud_Reservoir": {
+    "pre_monsoon": {
+      "s1_coreg": "./output/Hirakud_Reservoir/coregistered_pre_monsoon/S1_coregistered.tif",
+      "s2_ndwi": "./output/Hirakud_Reservoir/s2_pre_monsoon/S2_NDWI.tif",
+      "s2_rgb": "./output/Hirakud_Reservoir/s2_pre_monsoon/S2_RGB.tif",
+      "shape": [
+        10980,
+        10980
+      ]
+    },
+    "post_monsoon": {
+      "s1_coreg": "./output/Hirakud_Reservoir/coregistered_post_monsoon/S1_coregistered.tif",
+      "s2_ndwi": "./output/Hirakud_Reservoir/s2_post_monsoon/S2_NDWI.tif",
+      "s2_rgb": "./output/Hirakud_Reservoir/s2_post_monsoon/S2_RGB.tif",
+      "shape": [
+        10980,
+        10980
+      ]
+    }
+  },
+  "Chilika_Lake": {
+    "pre_monsoon": {
+      "s1_coreg": "./output/Chilika_Lake/coregistered_pre_monsoon/S1_coregistered.tif",
+      "s2_ndwi": "./output/Chilika_Lake/s2_pre_monsoon/S2_NDWI.tif",
+      "s2_rgb": "./output/Chilika_Lake/s2_pre_monsoon/S2_RGB.tif",
+      "shape": [
+        10980,
+        10980
+      ]
+    },
+    "post_monsoon": {
+      "s1_coreg": "./output/Chilika_Lake/coregistered_post_monsoon/S1_coregistered.tif",
+      "s2_ndwi": "./output/Chilika_Lake/s2_post_monsoon/S2_NDWI.tif",
+      "s2_rgb": "./output/Chilika_Lake/s2_post_monsoon/S2_RGB.tif",
+      "shape": [
+        10980,
+        10980
+      ]
+    }
+  }
+}

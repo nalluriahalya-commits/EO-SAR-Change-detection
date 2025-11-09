@@ -1,0 +1,22 @@
+{
+  "Hirakud_Reservoir": {
+    "pre_monsoon": {
+      "path": "./output/Hirakud_Reservoir/s1_pre_monsoon/S1_VV_processed.tif",
+      "polarization": "VV"
+    },
+    "post_monsoon": {
+      "path": "./output/Hirakud_Reservoir/s1_post_monsoon/S1_VV_processed.tif",
+      "polarization": "VV"
+    }
+  },
+  "Chilika_Lake": {
+    "pre_monsoon": {
+      "path": "./output/Chilika_Lake/s1_pre_monsoon/S1_VV_processed.tif",
+      "polarization": "VV"
+    },
+    "post_monsoon": {
+      "path": "./output/Chilika_Lake/s1_post_monsoon/S1_VV_processed.tif",
+      "polarization": "VV"
+    }
+  }
+}

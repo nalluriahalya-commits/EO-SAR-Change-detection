@@ -1,0 +1,22 @@
+{
+  "Hirakud_Reservoir": {
+    "pre_monsoon": {
+      "s2_water": "./output/Hirakud_Reservoir/water_masks_pre_monsoon/s2_water_mask.tif",
+      "combined_water": "./output/Hirakud_Reservoir/water_masks_pre_monsoon/combined_water_mask.tif"
+    },
+    "post_monsoon": {
+      "s2_water": "./output/Hirakud_Reservoir/water_masks_post_monsoon/s2_water_mask.tif",
+      "combined_water": "./output/Hirakud_Reservoir/water_masks_post_monsoon/combined_water_mask.tif"
+    }
+  },
+  "Chilika_Lake": {
+    "pre_monsoon": {
+      "s2_water": "./output/Chilika_Lake/water_masks_pre_monsoon/s2_water_mask.tif",
+      "combined_water": "./output/Chilika_Lake/water_masks_pre_monsoon/combined_water_mask.tif"
+    },
+    "post_monsoon": {
+      "s2_water": "./output/Chilika_Lake/water_masks_post_monsoon/s2_water_mask.tif",
+      "combined_water": "./output/Chilika_Lake/water_masks_post_monsoon/combined_water_mask.tif"
+    }
+  }
+}
