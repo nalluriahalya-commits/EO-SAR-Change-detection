@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_bd809d42cb7eea1c604c712d943fe389 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_bd809d42cb7eea1c604c712d943fe389" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_bd809d42cb7eea1c604c712d943fe389 = L.map(
+                "map_bd809d42cb7eea1c604c712d943fe389",
+                {
+                    center: [20.5, 84.5],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 7,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d61d1920c99afbcf9208dfbfdf2edc1f = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_d61d1920c99afbcf9208dfbfdf2edc1f.addTo(map_bd809d42cb7eea1c604c712d943fe389);
+        
+    
+            var rectangle_b01e380c5542c032370da5bc6cbc3005 = L.rectangle(
+                [[21.45, 83.85], [21.6, 84.05]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_bd809d42cb7eea1c604c712d943fe389);
+        
+    
+        var popup_6fde7b0de5bec35d7f24ae22deafd527 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7a09c2609135dbbe32122ec82ad2697f = $(`<div id="html_7a09c2609135dbbe32122ec82ad2697f" style="width: 100.0%; height: 100.0%;">Hirakud_Reservoir<br>Hirakud Dam reservoir with seasonal water level variations</div>`)[0];
+                popup_6fde7b0de5bec35d7f24ae22deafd527.setContent(html_7a09c2609135dbbe32122ec82ad2697f);
+            
+        
+
+        rectangle_b01e380c5542c032370da5bc6cbc3005.bindPopup(popup_6fde7b0de5bec35d7f24ae22deafd527)
+        ;
+
+        
+    
+    
+            var marker_5078949628d54c83392a6faaaf0ecc63 = L.marker(
+                [83.95, 21.525],
+                {
+}
+            ).addTo(map_bd809d42cb7eea1c604c712d943fe389);
+        
+    
+            var icon_3ca95b78d1d121710c3d93aee2088701 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_be4d93204daf0ed32b7b67bf9c1ee7c9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f203763ccd613291a26842aef2297202 = $(`<div id="html_f203763ccd613291a26842aef2297202" style="width: 100.0%; height: 100.0%;">Hirakud_Reservoir</div>`)[0];
+                popup_be4d93204daf0ed32b7b67bf9c1ee7c9.setContent(html_f203763ccd613291a26842aef2297202);
+            
+        
+
+        marker_5078949628d54c83392a6faaaf0ecc63.bindPopup(popup_be4d93204daf0ed32b7b67bf9c1ee7c9)
+        ;
+
+        
+    
+    
+                marker_5078949628d54c83392a6faaaf0ecc63.setIcon(icon_3ca95b78d1d121710c3d93aee2088701);
+            
+    
+            var rectangle_3d93b233f926b486f9e11cc14b3a6f4b = L.rectangle(
+                [[19.65, 85.2], [19.8, 85.5]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_bd809d42cb7eea1c604c712d943fe389);
+        
+    
+        var popup_4fc833326daccc7a2de54dee4e3a2110 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ea7eb9569573ec37e19aa50bf53628ce = $(`<div id="html_ea7eb9569573ec37e19aa50bf53628ce" style="width: 100.0%; height: 100.0%;">Chilika_Lake<br>Chilika coastal lagoon with tidal and seasonal variations</div>`)[0];
+                popup_4fc833326daccc7a2de54dee4e3a2110.setContent(html_ea7eb9569573ec37e19aa50bf53628ce);
+            
+        
+
+        rectangle_3d93b233f926b486f9e11cc14b3a6f4b.bindPopup(popup_4fc833326daccc7a2de54dee4e3a2110)
+        ;
+
+        
+    
+    
+            var marker_9218a47080dfa337417821f04661a7d3 = L.marker(
+                [85.35, 19.725],
+                {
+}
+            ).addTo(map_bd809d42cb7eea1c604c712d943fe389);
+        
+    
+            var icon_9d52fe4bd084759b5e4bb12a9889d4cb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_91c1dfe75ec039760709ab0742473a17 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c44deaa5ae17591876eb0d71b9190a2c = $(`<div id="html_c44deaa5ae17591876eb0d71b9190a2c" style="width: 100.0%; height: 100.0%;">Chilika_Lake</div>`)[0];
+                popup_91c1dfe75ec039760709ab0742473a17.setContent(html_c44deaa5ae17591876eb0d71b9190a2c);
+            
+        
+
+        marker_9218a47080dfa337417821f04661a7d3.bindPopup(popup_91c1dfe75ec039760709ab0742473a17)
+        ;
+
+        
+    
+    
+                marker_9218a47080dfa337417821f04661a7d3.setIcon(icon_9d52fe4bd084759b5e4bb12a9889d4cb);
+            
+</script>
+</html>
