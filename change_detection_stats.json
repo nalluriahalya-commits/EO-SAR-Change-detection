@@ -1,0 +1,54 @@
+{
+  "Hirakud_Reservoir": {
+    "s2": {
+      "change_map": "./output/Hirakud_Reservoir/change_detection/s2_change_map.tif",
+      "statistics": {
+        "water_gain_pixels": 5645948,
+        "water_loss_pixels": 2178565,
+        "persistent_water_pixels": 44235,
+        "persistent_land_pixels": 112691652,
+        "water_gain_pct": 4.683086652001818,
+        "water_loss_pct": 1.8070319939217188,
+        "net_change_pct": 2.876054658080099
+      }
+    },
+    "combined": {
+      "change_map": "./output/Hirakud_Reservoir/change_detection/combined_change_map.tif",
+      "statistics": {
+        "water_gain_pixels": 5623483,
+        "water_loss_pixels": 4102789,
+        "persistent_water_pixels": 78056,
+        "persistent_land_pixels": 110756072,
+        "water_gain_pct": 4.664452838577178,
+        "water_loss_pct": 3.4030983639735766,
+        "net_change_pct": 1.2613544746036012
+      }
+    }
+  },
+  "Chilika_Lake": {
+    "s2": {
+      "change_map": "./output/Chilika_Lake/change_detection/s2_change_map.tif",
+      "statistics": {
+        "water_gain_pixels": 87639160,
+        "water_loss_pixels": 456485,
+        "persistent_water_pixels": 2482314,
+        "persistent_land_pixels": 29982441,
+        "water_gain_pct": 72.69315629344295,
+        "water_loss_pct": 0.3786359368416163,
+        "net_change_pct": 72.31452035660134
+      }
+    },
+    "combined": {
+      "change_map": "./output/Chilika_Lake/change_detection/combined_change_map.tif",
+      "statistics": {
+        "water_gain_pixels": 89340787,
+        "water_loss_pixels": 445077,
+        "persistent_water_pixels": 2499752,
+        "persistent_land_pixels": 28274784,
+        "water_gain_pct": 74.10458741012803,
+        "water_loss_pct": 0.3691734599420705,
+        "net_change_pct": 73.73541395018597
+      }
+    }
+  }
+}
